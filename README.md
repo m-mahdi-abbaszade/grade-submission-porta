@@ -41,6 +41,9 @@ node_modules and __pycache__ are ignored via .gitignore.
 
 For production, use a proper WSGI server instead of the Flask development server.
 
+---
+
+
 ##Author
 Mohammad Mahdi
 
