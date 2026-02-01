@@ -37,7 +37,7 @@ This project is fully **containerized using Docker and Docker Compose** for easy
 
 ### Run services with Docker Compose
 
-```bash
+``bash
 docker-compose up --build
 Flask Portal runs on port 5001
 
@@ -65,8 +65,6 @@ Author
 Mohammad Mahdi
 
 
----
+ 
 
-اگر بخوای، می‌تونم همین الآن یه **نسخه‌ی کوتاه و جذاب برای GitHub landing page** هم آماده کنم که خیلی حرفه‌ای و قابل توجه باشه، مخصوصاً وقتی کسی پروژه‌ت رو باز می‌کنه.  
 
-میخوای اونم آماده کنم؟
