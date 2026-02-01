@@ -1,3 +1,7 @@
+![Grade Submission Portal Architecture](https://github.com/m-mahdi-abbaszade/grade-submission-porta/blob/main/docker.png)
+
+
+---
 # Grade Submission Portal
 
 A practice project consisting of **two services**:
