@@ -33,35 +33,15 @@ This project is fully **containerized using Docker and Docker Compose** for easy
 
 ---
 
-## How to Run
 
-### Run services with Docker Compose
-
-``bash
-docker-compose up --build
-Flask Portal runs on port 5001
-
-Node.js API runs on port 3000
-
-Both services are connected via Docker internal network
-
-Run separately
-Flask Portal
-cd grade-submission-portal
-docker build -t grade-portal .
-docker run -p 5001:5001 grade-portal
-Node.js API
-cd grade-submission-api
-docker build -t grade-api .
-docker run -p 3000:3000 grade-api
-Important Notes
+##Important Notes
 The GRADE_SERVICE_HOST environment variable in Flask Portal defines where the Node.js API is located.
 
 node_modules and __pycache__ are ignored via .gitignore.
 
 For production, use a proper WSGI server instead of the Flask development server.
 
-Author
+##Author
 Mohammad Mahdi
 
 
