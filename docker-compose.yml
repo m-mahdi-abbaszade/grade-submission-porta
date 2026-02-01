@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  portal:
+    build: ./grade-submission-portal
+    container_name: grade-portal
+    ports:
+      - "5001:5001"
+    environment:
+      - GRADE_SERVICE_HOST=grade-api
+    depends_on:
+      - grade-api
+
+  grade-api:
+    build: ./grade-submission-api
+    container_name: grade-api
+    ports:
+      - "3000:3000"
