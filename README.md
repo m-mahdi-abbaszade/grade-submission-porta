@@ -34,7 +34,7 @@ This project is fully **containerized using Docker and Docker Compose** for easy
 ---
 
 
-##Important Notes
+## Important Notes
 The GRADE_SERVICE_HOST environment variable in Flask Portal defines where the Node.js API is located.
 
 node_modules and __pycache__ are ignored via .gitignore.
@@ -44,7 +44,7 @@ For production, use a proper WSGI server instead of the Flask development server
 ---
 
 
-##Author
+## Author
 Mohammad Mahdi
 
 
